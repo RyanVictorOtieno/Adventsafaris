@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 26px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+</style>
+
+<title>Advent Safaris</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/animate.css">
+  <link rel="icon" type="image/jpg" href="resources/Advent_Logosample3.jpg" style="border-radius: 50%">
+</head>
+<body>
+	<!-- The following code is the navigation bar with different properties -->
+	<nav class="navbar navbar-inverse" style="background-color: rgba( 16, 16, 15, 0.6);">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#"><span style="color:white;">Advent Safaris</span></a>
+    </div>
+    <div class="collapse navbar-collapse navbar-right" id="myNavbar" style="padding-right: 200px; color:#DC00FF">
+      <ul class="nav navbar-nav" style="color:#DC00FF;">
+        <li class=""><a href="index.html"><span style="color: #15EFE2">Home</span></a></li>
+        <li class=""><a href=""><span style="color: #15EFE2">Events</span></a></li>
+        <li class=""><a href=""><span style="color: #15EFE2">Tours</span></a></li>
+        <li class=""><a href=""><span style="color: #15EFE2">Rentals</span></a></li>
+        <li class=""><a href=""><span style="color: #15EFE2">Bookings</span></a></li>
+        <li class=""><a href=""><span style="color: #15EFE2">About Us</span></a></li>
+      </ul>
+
+      <!-- the end of the navigation contents. -->
+      
+    </div>
+  </div>
+</nav>
+ <!-- the rest of the body begins here. -->
+ <div class="container introduction" style="padding-top: 50px; width: 100%;height:">
+ 	<div class="row">
+ 		<!-- first column -->
+ 		<div class="col-lg-4 col-sm-4 col-xsm-4" > 
+      <center>
+ 			<img class="thumbnail" src="resources/Advent_Logosample3.jpg" width="55%" style="border-radius: 50%">
+ 		 </center>
+    </div>
+ 		<!-- third column -->
+ 		<div class="col-lg-8 col-sm-8 col-xsm-8" style="color: white;"> 
+ 				<h4 style="text-align: center; color: pink;">FeelSomething..!</h4>
+ 				<h2 style="text-align: center; font-style: bold;">Happy Rythm of Life</h2>
+ 				<p style="text-align: center;" class="biograph" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 				consequat. Duis aute irure do</p>
+
+ 				<hr width="40%">
+ 				<!-- Audio promo or snnippet tag -->
+ 	
+
+ 				 <!-- social media div -->
+ 				<div class="footerLike" style="vertical-align: bottom;">
+ 				<h5 style="text-align: center; color:white;">Follow Us.</h5>
+ 				<center>
+ 				<a href=""> <img src="resources/icons/facebook.png" width="5%"></a>
+ 				<a href=""><img src="resources/icons/insta.png" width="5%"></a>
+ 				<a href=""><img src="resources/icons/twitter.png" width="5%"></a>
+ 				<a href=""><img src="resources/icons/snap.png" width="4%"></a>
+				<a href=""><img src="resources/icons/youtube.png" width="3%"></a>
+ 				</div>
+ 				</center>
+
+ 		</div>
+
+ 		
+ 	</div>
+ 	
+ </div>
+ <br>
+<br>
+
+<!-- New div begins here with highlights -->
+<div class="highlights container" style=""> 
+  <h2 style="text-align: center; color: black;">Welcome to Advent Safaris!</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>Bookings</h3>
+      <p>Book our hotel rooms, Rental apartments and offices at an affordable price. Check our accomodations services</p>
+      <img src="https://www.heritagetoursandsafaris.com/wp-content/uploads/2016/08/11942233_10153616448389595_1407975423056715749_o-1024x672.jpg" width="100%" style="border-radius: 50%;">
+      <br>
+      <br>
+      <p style="font-style: italic|bold;">Read More...</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+       <h3>Apartments</h3>
+      <p>Book our hotel rooms, Rental apartments and offices at an affordable price. Check our accomodations services</p>
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.w81NQMf8CGSHMFLLl4zazwHaFS%26pid%3DApi&f=1" width="93%">
+      <br>
+      <br>
+      <p style="font-style: italic|bold;">Read More...</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+       <h3>Tours</h3>
+      <p>Book our hotel rooms, Rental apartments and offices at an affordable price. Check our accomodations services</p>
+      <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fkhweza.com%2Fwp-content%2Fuploads%2F2015%2F11%2FNairobi-Hotels-Accommodation-in-Nairobi.jpg&f=1&nofb=1" width="100%">
+      <br>
+      <br>
+      <p style="font-style: italic|bold;">Read More...</p>
+    </div>
+  </div>
+  
+</div>
+<br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>Bookings</h3>
+      <p>Book our hotel rooms, Rental apartments and offices at an affordable price. Check our accomodations services</p>
+      <img src="https://www.heritagetoursandsafaris.com/wp-content/uploads/2016/08/11942233_10153616448389595_1407975423056715749_o-1024x672.jpg" width="100%">
+      <br>
+      <br>
+      <p style="font-style: italic|bold;">Read More...</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+       <h3>Bookings</h3>
+      <p>Book our hotel rooms, Rental apartments and offices at an affordable price. Check our accomodations services</p>
+      <img src="https://www.heritagetoursandsafaris.com/wp-content/uploads/2016/08/11942233_10153616448389595_1407975423056715749_o-1024x672.jpg" width="100%">
+      <br>
+      <br>
+      <p style="font-style: italic|bold;">Read More...</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+       <h3>About Us</h3>
+      <p>Learn more about us. Contact our customer care at any time of the day for any queries and comments..</p>
+      <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.superalphalight.com%2Fwp-content%2Fuploads%2F2018%2F05%2Fcontact-us.png&f=1&nofb=1" width="115%">
+      <br>
+      <br>
+      <p style="font-style: italic;">Google Map|Offices| Contacts...</p>
+    </div>
+  </div>
+  
+</div>
+</div>
+<br>
+<br>
+
+
+
+
+
+<script type="text/javascript" src="bootstrap/js/jquery.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

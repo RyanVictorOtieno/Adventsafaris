@@ -54,12 +54,10 @@ body {
   <link rel="icon" type="image/jpg" href="resources/Advent_Logosample3.jpg" style="border-radius: 50%">
 
 	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-	
-
-	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-	<link rel="stylesheet" type="text/css" href="engine2/style.css" />
-	<script type="text/javascript" src="engine2/jquery.js"></script>
-	<!-- End WOWSlider.com HEAD section --></head>
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+</head>
 <body>
 	<!-- The following code is the navigation bar with different properties -->
 	<nav class="navbar navbar-inverse" style="background-color: rgba( 16, 16, 15, 0.6);">
@@ -125,33 +123,33 @@ body {
 
       <hr width="80%">
  	
-  
-	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-	<div id="wowslider-container2">
-	<div class="ws_images"><ul>
-		<li><img src="data2/images/advent_logo2.jpg" alt="Advent Safaris" title="Advent Safaris" id="wows2_0"/></li>
-		<li><img src="data2/images/cheetah.jpg" alt="cheetah" title="cheetah" id="wows2_1"/></li>
-		<li><img src="data2/images/deserts.jpg" alt="deserts" title="deserts" id="wows2_2"/></li>
-		<li><img src="data2/images/park.jpg" alt="park" title="park" id="wows2_3"/></li>
-		<li><img src="data2/images/meeting_rooms.jpg" alt="meeting rooms" title="meeting rooms" id="wows2_4"/></li>
-		<li><a href="http://wowslider.net"><img src="data2/images/santorini,_greece.jpg" alt="image carousel" title="santorini, Greece" id="wows2_5"/></a></li>
-		<li><img src="data2/images/single_room.jpg" alt="single room" title="single room" id="wows2_6"/></li>
-	</ul></div>
-	<div class="ws_bullets"><div>
-		<a href="#" title="Advent Safaris"><span><img src="data2/tooltips/advent_logo2.jpg" alt="Advent Safaris"/>1</span></a>
-		<a href="#" title="cheetah"><span><img src="data2/tooltips/cheetah.jpg" alt="cheetah"/>2</span></a>
-		<a href="#" title="deserts"><span><img src="data2/tooltips/deserts.jpg" alt="deserts"/>3</span></a>
-		<a href="#" title="park"><span><img src="data2/tooltips/park.jpg" alt="park"/>4</span></a>
-		<a href="#" title="meeting rooms"><span><img src="data2/tooltips/meeting_rooms.jpg" alt="meeting rooms"/>5</span></a>
-		<a href="#" title="santorini, Greece"><span><img src="data2/tooltips/santorini,_greece.jpg" alt="santorini, Greece"/>6</span></a>
-		<a href="#" title="single room"><span><img src="data2/tooltips/single_room.jpg" alt="single room"/>7</span></a>
-	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">bootstrap image slider</a> by WOWSlider.com v9.0</div>
-	<div class="ws_shadow"></div>
-	</div>	
-	<script type="text/javascript" src="engine2/wowslider.js"></script>
-	<script type="text/javascript" src="engine2/script.js"></script>
-	<!-- End WOWSlider.com BODY section --><!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-  
+  <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+  <div id="wowslider-container1" style="height: 100px; width: 900px;">
+  <div class="ws_images"><ul>
+    <li><img src="data1/images/advent_logo2.jpg" alt="Advent Safaris" title="Advent Safaris" id="wows1_0"/></li>
+    <li><img src="data1/images/cheetah.jpg" alt="cheetah" title="cheetah" id="wows1_1"/></li>
+    <li><img src="data1/images/deserts.jpg" alt="deserts" title="deserts" id="wows1_2"/></li>
+    <li><img src="data1/images/park.jpg" alt="park" title="park" id="wows1_3"/></li>
+    <li><img src="data1/images/meeting_rooms.jpg" alt="meeting rooms" title="meeting rooms" id="wows1_4"/></li>
+    <li><a href="http://wowslider.net"><img src="data1/images/santorini,_greece.jpg" alt="slider html" title="santorini, Greece" id="wows1_5"/></a></li>
+    <li><img src="data1/images/single_room.jpg" alt="single room" title="single room" id="wows1_6"/></li>
+  </ul></div>
+  <div class="ws_bullets"><div>
+    <a href="#" title="Advent Safaris"><span><img src="data1/tooltips/advent_logo2.jpg" alt="Advent Safaris"/>1</span></a>
+    <a href="#" title="cheetah"><span><img src="data1/tooltips/cheetah.jpg" alt="cheetah"/>2</span></a>
+    <a href="#" title="deserts"><span><img src="data1/tooltips/deserts.jpg" alt="deserts"/>3</span></a>
+    <a href="#" title="park"><span><img src="data1/tooltips/park.jpg" alt="park"/>4</span></a>
+    <a href="#" title="meeting rooms"><span><img src="data1/tooltips/meeting_rooms.jpg" alt="meeting rooms"/>5</span></a>
+    <a href="#" title="santorini, Greece"><span><img src="data1/tooltips/santorini,_greece.jpg" alt="santorini, Greece"/>6</span></a>
+    <a href="#" title="single room"><span><img src="data1/tooltips/single_room.jpg" alt="single room"/>7</span></a>
+  </div>
+</div>
+
+  <div class="ws_shadow"></div>
+  </div>  
+  <script type="text/javascript" src="engine1/wowslider.js"></script>
+  <script type="text/javascript" src="engine1/script.js"></script>
+  <!-- End WOWSlider.com BODY section -->
  </div>
  <br>
 <br>

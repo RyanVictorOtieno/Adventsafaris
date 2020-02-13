@@ -2,7 +2,8 @@ body{
 	background-image: url(resources/lion.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: fixed;
+	background-position: center;
+    background-attachment: fixed;
 
 }
 

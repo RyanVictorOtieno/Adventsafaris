@@ -11,7 +11,7 @@ $response = '{
 $mpesaResponse = file_get_contents('php://input');
 
 //log the response 
-$logFile = "M_PPESAResponse.txt";
+$logFile = "M_PESAResponse.txt";
 $jsonMpesaResponse = json_decode($mpesaResponse, true);
 
 

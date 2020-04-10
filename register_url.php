@@ -1,6 +1,8 @@
 <?php
+
+	//fetching access token.
 	
-$consumerKey = 'ATCAOqYt4DGapujfaWfGGpONhh2wKXNO'; //Fill with your app Consumer Key
+	$consumerKey = 'ATCAOqYt4DGapujfaWfGGpONhh2wKXNO'; //Fill with your app Consumer Key
 	$consumerSecret = '5HCQCAn056dEOMKV'; // Fill with your app Secret
 
 	$headers = ['Content-Type:application/json; charset=utf8'];
@@ -20,6 +22,8 @@ $consumerKey = 'ATCAOqYt4DGapujfaWfGGpONhh2wKXNO'; //Fill with your app Consumer
 
 	echo $access_token;
 	
+	// end of access token. the next block of code registers the web url
+
 
 
 

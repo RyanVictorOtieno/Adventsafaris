@@ -1,5 +1,6 @@
 <?php 
 
+
 	$consumerKey = 'ATCAOqYt4DGapujfaWfGGpONhh2wKXNO'; //Fill with your app Consumer Key
 	$consumerSecret = '5HCQCAn056dEOMKV'; // Fill with your app Secret
 
@@ -21,5 +22,6 @@
 	echo $access_token;
 	
 	curl_close($curl);
+
 
 ?>

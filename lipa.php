@@ -25,12 +25,12 @@
       //Defining variables. 
   $initiate_url = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
   $BusinessShortCode = '174379';
-  $Timestamp = date("YmdGis");
-  $PartyA  = '254717603597';
-  $CallBackURL = 'xampp\htdocs\projects\AdventSafaris\callbackURL.php';
+  $Timestamp = date("YmdHis");
+  $PartyA  = '254769956617';
+  $CallBackURL = 'https://ryanvictorotieno.github.io/Adventsafaris/callbackURL.php';
   $AccountReference = 'Test101';
   $TransactionDesc = ' Lipa na Mpesa for Online Service, Snookie Wookie';
-  $Amount = '2' ;
+  $Amount = '300' ;
   $passkey = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919';
 
   $Password = base64_encode($BusinessShortCode. $passkey.$Timestamp );
